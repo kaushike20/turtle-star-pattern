@@ -1,7 +1,7 @@
 import turtle
 import time
 
-col=('red','yellow','green','cyan','pink','white','violet','orange','indigo')
+col=('yellow','green','cyan','pink','white','violet','orange','indigo','red')
 
 t=turtle.Turtle()
 t.width(3)
@@ -11,8 +11,8 @@ t.speed(25)
 
 x=1
 
-for i in range(35):
-    for j in range(4):
+for i in range(0,35):
+    for j in range(0,4):
         t.color(col[(0+i+j)%9])
         t.fd(x)
         t.lt(45)
