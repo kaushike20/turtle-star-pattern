@@ -1,7 +1,7 @@
 import turtle
 import time
 
-col=('yellow','green','cyan','pink','white','violet','orange','indigo','red')
+col=('yellow','green','cyan','pink','white','violet','indigo','orange','red')
 
 t=turtle.Turtle()
 t.width(3)
