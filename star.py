@@ -11,7 +11,7 @@ t.speed(25)
 
 x=1
 
-for i in range(0,35,1):
+for i in range(35):
     for j in range(0,4):
         t.color(col[(0+i+j)%9])
         t.fd(x)
