@@ -1,5 +1,5 @@
 import turtle
-import time
+# import time
 
 col=('yellow','green','cyan','pink','white','violet','indigo','orange','red')
 
@@ -7,7 +7,7 @@ t=turtle.Turtle()
 t.width(3)
 screen=turtle.Screen()
 screen.bgcolor('black')
-t.speed(25)
+t.speed(0)
 
 x=1
 
@@ -39,4 +39,5 @@ t.pencolor('blue')
 t.write("THANK YOU!",align='left',font=("Comic Sans MS",100,'bold'))
 t.hideturtle()
 
-time.sleep(10)
+# time.sleep(10)
+turtle.done()
