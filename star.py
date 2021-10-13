@@ -1,5 +1,5 @@
 import turtle
-# import time install turtle
+# import time install turtle by pip
 
 col=('yellow','green','cyan','pink','white','violet','indigo','orange','red')
 
