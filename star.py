@@ -1,6 +1,6 @@
 import turtle
 # import time install turtle by pip
-
+#The turtle module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways. 
 col=('yellow','green','cyan','pink','white','violet','indigo','orange','red')
 
 t=turtle.Turtle()
@@ -12,7 +12,7 @@ t.speed(0)
 x=1
 
 for i in range(35):
-    for j in range(0,4):
+    for j in range(4):
         t.color(col[(0+i+j)%9])
         t.fd(x)
         t.lt(45)
@@ -40,4 +40,6 @@ t.write("THANK YOU!",align='left',font=("Comic Sans MS",100,'bold'))
 t.hideturtle()
 
 # time.sleep(10)
+
+
 turtle.done()
