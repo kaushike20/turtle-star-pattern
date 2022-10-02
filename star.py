@@ -39,5 +39,5 @@ t.pencolor('blue')
 t.write("THANK YOU!",align='left',font=("Comic Sans MS",100,'bold'))
 t.hideturtle()
 
-# time.sleep(15)
+# time.sleep(10)
 turtle.done()
