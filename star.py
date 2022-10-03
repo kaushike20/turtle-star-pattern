@@ -1,6 +1,7 @@
 import turtle
 # import time install turtle by pip
-#The turtle module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways. 
+#The turtle module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways.  hgjgj
+#hello 
 col=('yellow','green','cyan','pink','white','violet','indigo','orange','red')
 
 t=turtle.Turtle()
